@@ -11,8 +11,58 @@ html{
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
   font-family: sans-serif;
+  font-size: 100%;
 }
 
 *, *::before, *::after{
 	box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  background-color: grey;
+}
+
+ol{
+  margin-top: 3em;
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.img-flex{
+  width:100%;
+  display: block;
+}
+
+@media only screen and (min-width: 25em){
+
+  h1{
+    text-align: center;
+  }
+  nav{
+    text-align: center;
+  }
+li{
+  display:inline-block;
+}
+}
+
+@media only screen and (min-width: 38em){
+
+  h1{
+    text-align: left;
+  }
+  nav{
+    text-align: left;
+  }
 }
