@@ -6,6 +6,7 @@
 
 html{
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -39,6 +40,7 @@ a{
   text-decoration: none;
 }
 
+
 .img-flex{
   width:100%;
   display: block;
@@ -52,7 +54,7 @@ a{
   nav{
     text-align: center;
   }
-li{
+  li{
   display:inline-block;
 }
 }
