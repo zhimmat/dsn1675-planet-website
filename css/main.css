@@ -39,7 +39,9 @@ li{
 a{
   text-decoration: none;
 }
-
+.margin{
+  margin-right: -1em;
+}
 
 .img-flex{
   width:100%;
