@@ -83,12 +83,15 @@ dd{
   padding: 1.5em;
 }
 figcaption{
-margin: 1em;}
+margin: 1em;
+}
 .textmargin{
 	margin: 0 1em;
 }
-.marginleft {    margin-left: .7em;
-margin-top: .8em;}
+.marginleft {
+margin-left: 1em;
+margin-top: .8em;
+}
 figure {
 	margin: 0;
 }
