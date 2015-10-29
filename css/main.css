@@ -26,38 +26,95 @@ body{
 header{
   background-color: grey;
 }
-
+h1{
+  text-align: center;
+  margin: .25em .5em;
+}
+.center{
+  text-align: center;
+}
 ol{
   margin-top: 3em;
   padding-left: 0;
 }
 
-li{
+header li{
   list-style: none;
+  margin: .5em;
+  padding: 1em;
 }
-
+header li:hover{
+  background-color: #2b91f5;
+}
+header a:hover{
+  color: white;
+}
 a{
   text-decoration: none;
+color: #1579db;
 }
 .margin{
   margin-right: -1em;
 }
-
+footer li{
+  list-style: none;
+}
 .img-flex{
   width:100%;
   display: block;
 }
+dd{
+  margin: 0 0 1em 0;
+}
+.info{
+  margin: 1em;
+}
+.pt{
+  padding-top: 1.5em;
+}
+.tb{
+  margin: 1.5em 0;
+}
+.pad{
+  padding: 1em;
+  background-color: silver;
+}
+.pad2{
+  padding: 1.5em;
+}
+figcaption{
+margin: 1em;}
+.textmargin{
+	margin: 0 1em;
+}
+.marginleft {    margin-left: .7em;
+margin-top: .8em;}
+figure {
+	margin: 0;
+}
+ol{
+	padding-left:0;
+	margin: 0;}
+.grey {
+	background-color: #eeeeee;
+}
+.lightgrey{
+  background-color: #eeeeee;
+}
+.banner{
+  background-color: silver;
+}
 
 @media only screen and (min-width: 25em){
 
-  h1{
-    text-align: center;
-  }
   nav{
     text-align: center;
   }
   li{
   display:inline-block;
+}
+header{
+  text-align: center;
 }
 }
 
@@ -67,6 +124,9 @@ a{
     text-align: left;
   }
   nav{
+    text-align: left;
+  }
+  header{
     text-align: left;
   }
 }
