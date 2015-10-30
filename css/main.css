@@ -70,6 +70,7 @@ margin: 1em;
 .marginleft {
 margin-left: 1em;
 margin-top: .8em;
+line-height: 1.1;
 }
 figure {
 	margin: 0;
